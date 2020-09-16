@@ -12,7 +12,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <body class="bg-secondary">
+    <body class="bg-secondary position-relative">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand bg-info" href="index.html">Ryan Nemec</a>
         <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +33,39 @@
         </div>
       </nav>
       <div class= "row mt-5"></div>
+      <main class="container position-absolute">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="card">
+              <h1 class="card-header bg-light text-info" >Contact</h1>
+              <br></br>
+              <div class="card-body">
+                <div class="row">
+                  <form class="m-auto w-50">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </main>
+     </div>
+     <footer class="container-fluid bg-dark py-4 fixed-bottom border-top border-info">
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
